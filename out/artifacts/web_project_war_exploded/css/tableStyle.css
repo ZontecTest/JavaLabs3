@@ -1,0 +1,18 @@
+h1{
+    margin-left: 35%;
+}
+
+table{
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+.firstTableLine{
+    color: red;
+    background: yellow;
+}
+
+.personItem:hover{
+    background: greenyellow;
+    font-weight: bold;
+}
