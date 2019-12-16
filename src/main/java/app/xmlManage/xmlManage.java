@@ -18,10 +18,8 @@ public abstract class xmlManage {
             Validator validator = schema.newValidator();
             validator.validate(new StreamSource(new File(xmlPath)));
         } catch (IOException e) {
-            //logger.error("Exception: " + e.getMessage());
             return false;
         } catch (org.xml.sax.SAXException e1) {
-            //logger.error("SAX Exception: " + e1.getMessage());
             return false;
         }
         return true;
